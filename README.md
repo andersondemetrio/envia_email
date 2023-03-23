@@ -1,1 +1,3 @@
-# envia_email
+
+  <h1>Automatização Python</h1>
+  <p>Nesse exemplo, é enviado um e-mail via <a href="https://pt.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol" target="_blank">SMTP</a> ao usuário com um relatório mensal de armazenamento de exames, é feito um agendamento via <a href="https://pt.wikipedia.org/wiki/Crontab" target="_blank">Crontab</a> + integração com <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> e <a href="https://www.python.org/" target="_blank">Python</a>. Como resultado, o usuário final terá um relatório mensal da quantidade de exames armazenados, bem como a volumetria e modalidade dos mesmos.</p>
