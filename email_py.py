@@ -33,7 +33,7 @@ SELECT DISTINCT(tabela1.coluna1) AS "Modalidade",
         COUNT(DISTINCT(tabela1.coluna2)) AS "Estudos",
         ROUND(SUM(tabela_imagem.coluna3)/1024/1024/1024,1) AS "Tamanho (GB)"
         --ROUND(SUM(tabela3.coluna3)/1024/1024,1) AS "Tamanho (MB)"
-    FROM dicomstudies
+    FROM tabela1
     INNER JOIN tabela2 ON tabela1.coluna3 = tabela2.coluna3
     INNER JOIN tabela3 ON tabela2.coluna3 = tabela3.coluna3
     where  to_date(tabela1.coluna1, 'YYYYMMDD') >= NOW() - INTERVAL '30 days'
